@@ -135,7 +135,13 @@ Traditional AI interactions lack structure:
 
 ### Installation
 
-#### Method 1: One-line Install (Recommended)
+#### Method 1: NPX Install (Recommended)
+
+```bash
+npx github:MaesHughes/wuxing-claudecode-workflow
+```
+
+#### Method 2: Script Install
 
 **Linux / macOS:**
 ```bash
@@ -148,7 +154,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/MaesHughes/wuxing-clau
 .\install.ps1
 ```
 
-#### Method 2: Manual Install
+#### Method 3: Manual Install
 
 ```bash
 # Clone repository

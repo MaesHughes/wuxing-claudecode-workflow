@@ -135,7 +135,13 @@
 
 ### 安装
 
-#### 方式一：一键安装（推荐）
+#### 方式一：npx 安装（推荐）
+
+```bash
+npx github:MaesHughes/wuxing-claudecode-workflow
+```
+
+#### 方式二：脚本安装
 
 **Linux / macOS:**
 ```bash
@@ -148,7 +154,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/MaesHughes/wuxing-clau
 .\install.ps1
 ```
 
-#### 方式二：手动安装
+#### 方式三：手动安装
 
 ```bash
 # 克隆仓库

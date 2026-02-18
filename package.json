@@ -1,0 +1,25 @@
+{
+  "name": "wuxing-workflow",
+  "version": "1.0.0",
+  "description": "Structured AI Development Workflow for Claude Code",
+  "type": "module",
+  "bin": {
+    "wuxing-workflow": "./install.js"
+  },
+  "files": [
+    "install.js",
+    "commands/",
+    "agents/"
+  ],
+  "keywords": [
+    "claude-code",
+    "workflow",
+    "prompt-engineering",
+    "ai"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaesHughes/wuxing-claudecode-workflow.git"
+  }
+}
