@@ -1,0 +1,17 @@
+# Claude Code local config (development)
+.claude/
+
+# Development directories
+demo/
+_archived/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
