@@ -3,23 +3,23 @@
 </p>
 
 <p align="center">
-  <a href="README.zh-CN.md">
-    <b>English | 中文</b>
+  <a href="README.en.md">
+    <b>中文 | English</b>
   </a>
 </p>
 
 <p align="center">
-  <strong>Compatible with Claude Code, Cursor, Windsurf and AI-powered IDEs</strong>
+  <strong>兼容 Claude Code、Cursor、Windsurf 和其他 AI 驱动的 IDE</strong>
 </p>
 
 <h1 align="center">Wuxing Workflow</h1>
 
 <p align="center">
-  <i>Structured AI Development Workflow with 8 Prompt Frameworks</i>
+  <i>集成 8 种 Prompt 框架的结构化 AI 开发工作流</i>
 </p>
 
 <p align="center">
-  <strong>Professional 6-stage workflow for complex tasks, 3-stage workflow for simple tasks</strong>
+  <strong>专业六阶段工作流处理复杂任务，三阶段工作流处理简单任务</strong>
 </p>
 
 <p align="center">
@@ -34,56 +34,56 @@
 </p>
 
 <p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-workflows">Workflows</a> •
-  <a href="#-frameworks">Frameworks</a> •
-  <a href="#-faq">FAQ</a>
+  <a href="#-功能特点">功能特点</a> •
+  <a href="#-快速开始">快速开始</a> •
+  <a href="#-工作流介绍">工作流介绍</a> •
+  <a href="#-框架参考">框架参考</a> •
+  <a href="#-常见问题">常见问题</a>
 </p>
 
 ---
 
-## What is Wuxing Workflow?
+## 什么是 Wuxing Workflow？
 
-**Wuxing Workflow** is a structured AI development workflow system designed for Claude Code. It integrates 8 professional Prompt frameworks and 7 design patterns to provide systematic task processing capabilities.
+**Wuxing Workflow** 是一套为 Claude Code 设计的结构化 AI 开发工作流系统。它集成了 8 种专业 Prompt 框架和 7 种设计模式，提供系统化的任务处理能力。
 
-### Why Wuxing?
+### 为什么选择 Wuxing？
 
-Traditional AI interactions lack structure:
-- ❌ Vague requirements lead to incomplete solutions
-- ❌ No clear planning phase
-- ❌ Quality checks are afterthoughts
-- ❌ Hard to track progress
+传统 AI 交互缺乏结构：
+- ❌ 需求模糊导致方案不完整
+- ❌ 缺乏清晰的规划阶段
+- ❌ 质量检查是事后补救
+- ❌ 难以跟踪进度
 
-**Wuxing solves these problems:**
-- ✅ **Structured Stages** - Clear phase transitions with gate checks
-- ✅ **Professional Frameworks** - 8 Prompt frameworks for different scenarios
-- ✅ **Design Patterns** - CoT, ReAct, Divide & Conquer integrated
-- ✅ **Quality Built-in** - DRY, KISS, YAGNI, SOLID checks at every stage
-- ✅ **Two Modes** - Deep workflow for complex tasks, Fast workflow for simple ones
+**Wuxing 解决了这些问题：**
+- ✅ **结构化阶段** - 清晰的阶段转换和门禁检查
+- ✅ **专业框架** - 8 种 Prompt 框架适配不同场景
+- ✅ **设计模式** - 集成 CoT、ReAct、分治法
+- ✅ **内建质量** - 每阶段都有 DRY、KISS、YAGNI、SOLID 检查
+- ✅ **双模式** - 深度工作流处理复杂任务，快速工作流处理简单任务
 
 ---
 
-## Architecture
+## 架构说明
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                        Wuxing Workflow System                            │
+│                        Wuxing 工作流系统                                  │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
 │   ┌───────────────────── Wuxing Deep ─────────────────────┐             │
 │   │                                                        │             │
-│   │  [Insight] → [Deduce] → [Partition] → [Build] → [Refine] → [Validate] │
-│   │      │          │           │           │          │          │      │
-│   │    Q.A.S   B.R.I.D.G.E   S.C.O.P.E   D.E.V.    ARCHITECT   C.O.R.E   │
+│   │  [洞察] → [推演] → [切分] → [构建] → [提炼] → [验收]   │             │
+│   │     │        │        │        │        │        │    │             │
+│   │   Q.A.S  B.R.I.D.G.E  S.C.O.P.E  D.E.V.  ARCHITECT  C.O.R.E        │
 │   │                                                        │             │
 │   └────────────────────────────────────────────────────────┘             │
 │                                                                          │
 │   ┌─────────────────── Wuxing Fast ───────────────────┐                 │
 │   │                                                    │                 │
-│   │        [Capture] → [Plan] → [Execute]              │                 │
-│   │             │          │          │                │                 │
-│   │           T.A.R     C.O.R.E     ReAct              │                 │
+│   │        [捕获] → [规划] → [执行]                     │                 │
+│   │           │        │        │                      │                 │
+│   │         T.A.R    C.O.R.E   ReAct                   │                 │
 │   │                                                    │                 │
 │   └────────────────────────────────────────────────────┘                 │
 │                                                                          │
@@ -92,50 +92,50 @@ Traditional AI interactions lack structure:
 
 ---
 
-## ✨ Features
+## ✨ 功能特点
 
-### 🔄 Two Workflow Modes
+### 🔄 双工作流模式
 
-| Mode | Stages | Use Case | Time |
-|------|--------|----------|------|
-| **wuxing-deep** | 6 stages | Complex features, refactoring, architecture | Comprehensive |
-| **wuxing-fast** | 3 stages | Simple tasks, bug fixes, small features | Quick |
+| 模式 | 阶段 | 适用场景 | 耗时 |
+|------|------|----------|------|
+| **wuxing-deep** | 6 阶段 | 复杂功能、重构、架构设计 | 全面 |
+| **wuxing-fast** | 3 阶段 | 简单任务、Bug 修复、小功能 | 快速 |
 
-### 📚 8 Prompt Frameworks
+### 📚 8 种 Prompt 框架
 
-| Framework | Stage | Purpose |
-|-----------|-------|---------|
-| **Q.A.S** | Insight | Question + Answer + Scope analysis |
-| **B.R.I.D.G.E** | Deduce | Background + Role + Input + Deliverable + Guide + Example |
-| **S.C.O.P.E** | Partition | Scenario + Context + Objective + Parameters + Examples + Evaluation |
-| **D.E.V.E.L.O.P** | Build | Define + Explore + Validate + Execute + Loop + Optimize + Produce |
-| **A.R.C.H.I.T.E.C.T** | Refine | Assess + Refine + Construct + Handle + Integrate + Test + Execute + Calibrate |
-| **C.O.R.E** | Validate | Context + Objective + Requirements + Expectation |
-| **T.A.R** | Capture (Fast) | Task + Action + Result |
-| **ReAct** | Execute (Fast) | Thought → Act → Observe loop |
+| 框架 | 阶段 | 用途 |
+|------|------|------|
+| **Q.A.S** | 洞察 | Question + Answer + Scope 需求分析 |
+| **B.R.I.D.G.E** | 推演 | Background + Role + Input + Deliverable + Guide + Example |
+| **S.C.O.P.E** | 切分 | Scenario + Context + Objective + Parameters + Examples + Evaluation |
+| **D.E.V.E.L.O.P** | 构建 | Define + Explore + Validate + Execute + Loop + Optimize + Produce |
+| **A.R.C.H.I.T.E.C.T** | 提炼 | Assess + Refine + Construct + Handle + Integrate + Test + Execute + Calibrate |
+| **C.O.R.E** | 验收 | Context + Objective + Requirements + Expectation |
+| **T.A.R** | 捕获 (Fast) | Task + Action + Result |
+| **ReAct** | 执行 (Fast) | Thought → Act → Observe 循环 |
 
-### 🎯 7 Design Patterns
+### 🎯 7 种设计模式
 
-- **Direct Question** - Clear, explicit questions
-- **Role Play** - Act as expert roles
-- **Chain of Thought (CoT)** - Step-by-step reasoning
-- **Few-Shot** - Example-driven learning
-- **Constraints** - Explicit boundaries
-- **ReAct** - Reasoning + Acting loop
-- **Divide & Conquer** - Break down complex tasks
+- **直接提问** - 清晰明确的问题
+- **角色扮演** - 扮演专家角色
+- **思维链 (CoT)** - 逐步推理
+- **示例驱动** - 通过示例学习
+- **约束条件** - 明确边界
+- **ReAct** - 推理 + 行动循环
+- **分治法** - 分解复杂任务
 
 ---
 
-## 🚀 Quick Start
+## 🚀 快速开始
 
-### Prerequisites
+### 前置要求
 
-- [Claude Code](https://claude.ai/code) installed
-- Terminal access
+- 已安装 [Claude Code](https://claude.ai/code)
+- 终端访问权限
 
-### Installation
+### 安装
 
-#### Method 1: One-line Install (Recommended)
+#### 方式一：一键安装（推荐）
 
 **Linux / macOS:**
 ```bash
@@ -148,94 +148,94 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/MaesHughes/wuxing-clau
 .\install.ps1
 ```
 
-#### Method 2: Manual Install
+#### 方式二：手动安装
 
 ```bash
-# Clone repository
+# 克隆仓库
 git clone https://github.com/MaesHughes/wuxing-claudecode-workflow.git
 cd wuxing-claudecode-workflow
 
-# Copy commands
+# 复制 commands
 cp commands/*.md ~/.claude/commands/
 
-# Copy agents
+# 复制 agents
 cp agents/*.md ~/.claude/agents/
 ```
 
-### Verify Installation
+### 验证安装
 
 ```bash
-ls ~/.claude/commands/  # Should show wuxing-deep.md, wuxing-fast.md
-ls ~/.claude/agents/   # Should show planner.md, ui-ux-designer.md
+ls ~/.claude/commands/  # 应显示 wuxing-deep.md, wuxing-fast.md
+ls ~/.claude/agents/   # 应显示 planner.md, ui-ux-designer.md
 ```
 
 ---
 
-## 📖 Workflows
+## 📖 工作流介绍
 
-### Wuxing Deep (6-Stage)
+### Wuxing Deep（六阶段）
 
-For complex engineering tasks:
+用于复杂工程任务：
 
 ```
 ┌─────────┐    ┌─────────┐    ┌───────────┐    ┌─────────┐    ┌─────────┐    ┌───────────┐
-│ Insight │ ──▶│  Deduce │ ──▶│ Partition │ ──▶│  Build  │ ──▶│  Refine │ ──▶│ Validate  │
+│  洞察   │ ──▶│  推演   │ ──▶│   切分    │ ──▶│  构建   │ ──▶│  提炼   │ ──▶│   验收    │
 └─────────┘    └─────────┘    └───────────┘    └─────────┘    └─────────┘    └───────────┘
      │              │               │               │              │              │
    Q.A.S      B.R.I.D.G.E      S.C.O.P.E      D.E.V.E.L.O.P   ARCHITECT      C.O.R.E
      │              │               │               │              │              │
-   ≥7pts?       Selected?        Approved?        Done?         Passed?       Passed?
+  ≥7分?         已选定?          已批准?          已完成?        已通过?        已通过?
      │              │               │               │              │              │
      ▼              ▼               ▼               ▼              ▼              ▼
-  (back)         (back)         (back)        (partition)     (build)     (refine/build)
+  (回退)         (回退)         (回退)         (切分)         (构建)      (提炼/构建)
 ```
 
-**Usage:**
+**使用方法：**
 ```
-/wuxing-deep Implement a real-time chat system with WebSocket support
+/wuxing-deep 实现一个支持 WebSocket 的实时聊天系统
 ```
 
-### Wuxing Fast (3-Stage)
+### Wuxing Fast（三阶段）
 
-For simple, independent tasks:
+用于简单独立任务：
 
 ```
 ┌─────────┐         ┌───────┐         ┌─────────┐
-│ Capture │ ──────▶ │ Plan  │ ──────▶ │ Execute │
+│  捕获   │ ──────▶ │ 规划  │ ──────▶ │  执行   │
 └─────────┘         └───────┘         └─────────┘
      │                   │                  │
    T.A.R              C.O.R.E            ReAct
      │                   │                  │
-  Simple?            Confirmed?          Done
+  简单?               已确认?            完成
      │                   │                  │
-     └──── (direct) ─────┘                  ▼
+     └──── (直接执行) ────┘                  ▼
 ```
 
-**Usage:**
+**使用方法：**
 ```
-/wuxing-fast Add a loading spinner to the submit button
+/wuxing-fast 给提交按钮添加加载动画
 ```
 
 ---
 
-## 📁 Project Structure
+## 📁 项目结构
 
 ```
 wuxing-claudecode-workflow/
 ├── commands/
-│   ├── wuxing-deep.md       # 6-stage deep workflow
-│   ├── wuxing-deep-v1.md    # Historical version
-│   ├── wuxing-fast.md       # 3-stage fast workflow
-│   └── wuxing-fast-v1.md    # Historical version
+│   ├── wuxing-deep.md       # 六阶段深度工作流
+│   ├── wuxing-deep-v1.md    # 历史版本
+│   ├── wuxing-fast.md       # 三阶段快速工作流
+│   └── wuxing-fast-v1.md    # 历史版本
 ├── agents/
-│   ├── planner.md           # Task planning agent
-│   └── ui-ux-designer.md    # UI/UX design agent
+│   ├── planner.md           # 任务规划 Agent
+│   └── ui-ux-designer.md    # UI/UX 设计 Agent
 ├── assets/
-│   └── banner.png           # Project banner
-├── install.sh               # Linux/macOS installer
-├── install.ps1              # Windows installer
-├── README.md                # English documentation
-└── README.zh-CN.md          # Chinese documentation
+│   └── banner.png           # 项目横幅
+├── install.sh               # Linux/macOS 安装脚本
+├── install.ps1              # Windows 安装脚本
+├── README.md                # 中文文档（本文件）
+└── README.en.md             # 英文文档
 ```
 
 ---
@@ -244,108 +244,108 @@ wuxing-claudecode-workflow/
 
 ### Planner Agent
 
-Professional task decomposition expert. Called during the "Partition" stage of wuxing-deep.
+专业任务分解专家。在 wuxing-deep 的「切分」阶段被调用。
 
-**Capabilities:**
-- WBS-based task breakdown
-- Dependency analysis
-- Risk identification
-- Acceptance criteria definition
+**能力：**
+- 基于 WBS 的任务分解
+- 依赖关系分析
+- 风险识别
+- 验收标准定义
 
 ### UI/UX Designer Agent
 
-UI/UX design specialist. Called for frontend-related tasks.
+UI/UX 设计专家。处理前端相关任务时被调用。
 
-**Capabilities:**
-- ASCII layout sketches
-- Design specification output
-- Component structure planning
+**能力：**
+- ASCII 布局草图
+- 设计规范输出
+- 组件结构规划
 
 ---
 
-## ❓ FAQ
+## ❓ 常见问题
 
-### Q: When should I use wuxing-deep vs wuxing-fast?
+### Q: 什么时候用 wuxing-deep，什么时候用 wuxing-fast？
 
-| Scenario | Recommended |
-|----------|-------------|
-| New feature development | wuxing-deep |
-| Architecture design | wuxing-deep |
-| System refactoring | wuxing-deep |
-| Bug fix | wuxing-fast |
-| Small UI tweak | wuxing-fast |
-| Quick prototype | wuxing-fast |
+| 场景 | 推荐 |
+|------|------|
+| 新功能开发 | wuxing-deep |
+| 架构设计 | wuxing-deep |
+| 系统重构 | wuxing-deep |
+| Bug 修复 | wuxing-fast |
+| 小 UI 调整 | wuxing-fast |
+| 快速原型 | wuxing-fast |
 
-### Q: What's the gate check mechanism?
+### Q: 门禁检查机制是什么？
 
-Each stage has a gate check:
-- **Insight**: Completeness score ≥ 7/10
-- **Deduce**: Solution selected
-- **Partition**: Plan approved
-- **Build**: Task completed
-- **Refine**: Quality passed
-- **Validate**: Requirements met
+每个阶段都有门禁检查：
+- **洞察**：完整性评分 ≥ 7/10
+- **推演**：方案已选定
+- **切分**：计划已批准
+- **构建**：任务已完成
+- **提炼**：质量已通过
+- **验收**：需求已满足
 
-If a gate check fails, the workflow stays at that stage.
+如果门禁检查失败，工作流会停留在该阶段。
 
-### Q: Can I customize the workflows?
+### Q: 可以自定义工作流吗？
 
-Yes! The workflow files are plain Markdown. You can:
-1. Edit `~/.claude/commands/wuxing-deep.md`
-2. Modify stages, frameworks, or templates
-3. Changes apply immediately
+可以！工作流文件是纯 Markdown。你可以：
+1. 编辑 `~/.claude/commands/wuxing-deep.md`
+2. 修改阶段、框架或模板
+3. 更改立即生效
 
-### Q: How do the Prompt frameworks work?
+### Q: Prompt 框架如何工作？
 
-Each stage uses a specific framework to structure the AI's thinking:
+每个阶段使用特定框架来结构化 AI 的思维：
 
 ```
-Example: S.C.O.P.E in Partition stage
+示例：S.C.O.P.E 在切分阶段的应用
 
-S - Scenario:  What's the development context?
-C - Context:   What are the technical constraints?
-O - Objective: What's the goal of each subtask?
-P - Parameters: What are the specific requirements?
-E - Examples:  Are there reference implementations?
-E - Evaluation: What are the acceptance criteria?
+S - Scenario:  开发场景是什么？
+C - Context:   技术约束有哪些？
+O - Objective: 每个子任务的目标是什么？
+P - Parameters: 具体参数要求是什么？
+E - Examples:  有参考实现吗？
+E - Evaluation: 验收标准是什么？
 ```
 
 ---
 
-## 📚 Resources
+## 📚 资源
 
-### Documentation
-- [Prompt Frameworks Guide](https://github.com/MaesHughes/wuxing-claudecode-workflow/wiki/Frameworks)
-- [Design Patterns Reference](https://github.com/MaesHughes/wuxing-claudecode-workflow/wiki/Patterns)
+### 文档
+- [Prompt 框架指南](https://github.com/MaesHughes/wuxing-claudecode-workflow/wiki/Frameworks)
+- [设计模式参考](https://github.com/MaesHughes/wuxing-claudecode-workflow/wiki/Patterns)
 
-### Community
-- [GitHub Issues](https://github.com/MaesHughes/wuxing-claudecode-workflow/issues) - Report bugs
-- [GitHub Discussions](https://github.com/MaesHughes/wuxing-claudecode-workflow/discussions) - Ask questions
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
+### 社区
+- [GitHub Issues](https://github.com/MaesHughes/wuxing-claudecode-workflow/issues) - 报告问题
+- [GitHub Discussions](https://github.com/MaesHughes/wuxing-claudecode-workflow/discussions) - 提问讨论
 
 ---
 
-## 📄 License
+## 🤝 贡献
 
-[MIT License](LICENSE) - See [LICENSE](LICENSE) file for details.
+欢迎社区贡献！
+
+1. **Fork** 本仓库
+2. **创建** 功能分支（`git checkout -b feature/amazing-feature`）
+3. **提交** 更改（`git commit -m 'Add amazing feature'`）
+4. **推送** 到分支（`git push origin feature/amazing-feature`）
+5. **打开** Pull Request
+
+---
+
+## 📄 许可证
+
+[MIT License](LICENSE) - 详见 [LICENSE](LICENSE) 文件。
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by Wuxing Team**
+**由 Wuxing 团队用 ❤️ 制作**
 
-**⭐ Star us on GitHub — it helps a lot!**
+**⭐ 在 GitHub 上给我们加星 —— 这对我们很有帮助！**
 
 </div>
