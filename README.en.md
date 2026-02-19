@@ -175,6 +175,18 @@ ls ~/.claude/commands/  # Should show wuxing-deep.md, wuxing-fast.md
 ls ~/.claude/agents/   # Should show planner.md, ui-ux-designer.md
 ```
 
+### Updating
+
+When a new version is released, simply run the installation command again to update:
+
+```bash
+npx github:MaesHughes/wuxing-claudecode-workflow
+```
+
+This will overwrite the old files in `~/.claude/commands/` and `~/.claude/agents/`, while preserving your other configurations.
+
+> **Note**: If you've manually modified these files, please backup before updating.
+
 ---
 
 ## 📖 Workflows

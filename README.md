@@ -175,6 +175,18 @@ ls ~/.claude/commands/  # 应显示 wuxing-deep.md, wuxing-fast.md
 ls ~/.claude/agents/   # 应显示 planner.md, ui-ux-designer.md
 ```
 
+### 更新
+
+当有新版本发布时，重新运行安装命令即可更新：
+
+```bash
+npx github:MaesHughes/wuxing-claudecode-workflow
+```
+
+这会覆盖 `~/.claude/commands/` 和 `~/.claude/agents/` 中的旧文件，保留您的其他配置。
+
+> **注意**：如果您手动修改过这些文件，更新前请先备份。
+
 ---
 
 ## 📖 工作流介绍
